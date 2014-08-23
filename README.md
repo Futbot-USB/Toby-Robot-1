@@ -8,9 +8,9 @@ está siempre en proceso de acomodo, adaptación y cambio. Sirve como una plataf
 de los dispositivos finales que serán agregados a los robots que competirán en la SSL.
 
 Toby esta conformado por las siguientes partes:
-* Chassis.
-* 3 Motores DC.
+
+* 3 Motores: 7.2V, 175 RPM.
 * 3 Ruedas Omnidireccionales.
-* 2 Integrados L298 en su tarjeta (Puentes H).
-* Arduino Uno.
-* Interfaz Serial a Bluetooth.
+* Controlador Arduino UNO.
+* Modulo Bluetooth - Serial A7 Embedded-Blue.
+* Amplificadores tipo Puente H para el control de los motores.
