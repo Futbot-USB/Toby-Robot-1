@@ -10,6 +10,7 @@ de los dispositivos finales que serán agregados a los robots que competirán en
 Toby esta conformado por las siguientes partes:
 * Chassis.
 * 3 Motores DC.
-* 2 Integrados L298 en su tarjeta.
+* 3 Ruedas Omnidireccionales.
+* 2 Integrados L298 en su tarjeta (Puentes H).
 * Arduino Uno.
 * Interfaz Serial a Bluetooth.
