@@ -14,3 +14,4 @@ Toby esta conformado por las siguientes partes:
 * Controlador Arduino UNO.
 * Modulo Bluetooth - Serial A7 Embedded-Blue.
 * Amplificadores tipo Puente H para el control de los motores.
+       
