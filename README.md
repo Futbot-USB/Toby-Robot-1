@@ -2,7 +2,6 @@ Toby-Robot-1
 ============
 
 "Toby" es el primer robot desarrollado por FutBot USB.
-![](//Captura.PNG)
 
 Armado por primera vez por un pasante corto del Grupo de Investigación y Desarrollo en Mecatrónica, "Toby" (Por ser como un tobo), 
 está siempre en proceso de acomodo, adaptación y cambio. Sirve como una plataforma sencilla de aprendizaje, pruebas y prototipado
