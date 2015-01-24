@@ -1,19 +1,23 @@
 /*
-    LibreToby.h
+    LibToby.h
     Libreria para controlar al robot Toby
     Creada por Jose Soto, Fecha 12/10/2014
+    Ultima modificacion 08/01/2015
 */
-#ifndef LibreToby_h
-#define LibreToby_h
-#include "arduino.h"
+#ifndef LibToby_h
+#define LibToby_h
+#include <Arduino.h>
 class Toby {
     public:
         Toby(int pinA[3],int pinB[3]);
+        void freno(int ftime);
         void setVMotor();
         void setWMotor();
         void setSpd(float spd);
+        void setDir(float dir);
+        void setMod(int mod);
+        void setRot(int rot);
         //pines A son para girar con el reloj pines B contrario
-        void freno(int ftime);
     private:
         int _pinA[3];
         int _pinB[3];
@@ -24,5 +28,7 @@ class Toby {
         float _wm[3];
         float _dir;
         float _spd;
+        int _mod;
+        int _rot;
 };
 #endif
