@@ -1,0 +1,14 @@
+Colocar librerias en arduino:
+
+1. Poner las librerias en una carpeta con el mismo nombre
+2. Poner esa carpeta a la carpeta de librerias de arduino
+3. Dar incluir en el programa arduino estando en el codigo
+
+Ejemplo
+
+Si se tiene: LibToby.cpp y LibToby.h, colocar ambos en carpeta LibToby
+luego esa carpeta moverla para quedar de la siguiente forma
+
+C:\Program Files (x86)\Arduino\libraries\LibToby
+
+luego estando en arduino, Sketch -> Import Library -> LibToby
